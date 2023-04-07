@@ -75,6 +75,14 @@
       )
       (polyline
         (pts
+          (xy -6.35 0)
+          (xy -5.842 0)
+        )
+        (stroke (width 0.15) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
           (xy -1.905 -12.7)
           (xy 2.159 -12.7)
         )
@@ -91,8 +99,24 @@
       )
       (polyline
         (pts
+          (xy -1.27 -2.54)
+          (xy -1.778 -2.54)
+        )
+        (stroke (width 0.15) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
           (xy 0 -11.43)
           (xy 0 -9.525)
+        )
+        (stroke (width 0.15) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.778 -2.54)
+          (xy 1.27 -2.54)
         )
         (stroke (width 0.15) (type default))
         (fill (type none))
@@ -135,7 +159,7 @@
         (stroke (width 0.15) (type default))
         (fill (type none))
       )
-      (circle (center 2.54 -3.175) (radius 0.1796)
+      (circle (center 2.032 -3.048) (radius 0.1796)
         (stroke (width 0.001) (type default))
         (fill (type outline))
       )
@@ -185,7 +209,7 @@
       )
     )
     (symbol "NCS1-332+_1_1"
-      (pin passive line (at -8.255 0 0) (length 2.54)
+      (pin passive line (at -8.89 0 0) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -193,11 +217,11 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -1.905 -5.08 90) (length 2.54)
+      (pin passive line (at -1.27 -5.08 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 1.905 -5.08 90) (length 2.54)
+      (pin passive line (at 1.27 -5.08 90) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
