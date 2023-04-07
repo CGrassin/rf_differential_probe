@@ -625,6 +625,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9736a5df-4470-4add-ab07-6030d7add6f0)
   )
+  (text "Note: TR1 can alternatively be TCM1-43X+" (at 77.47 80.01 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a77582ed-92ff-4494-84b2-2f871bdff2cf)
+  )
 
   (label "RF" (at 139.7 71.12 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
