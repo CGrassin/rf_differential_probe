@@ -1,6 +1,6 @@
 <QucsStudio Schematic 5.9>
 <Properties>
-View=36,-274,1253,555,1.39669,0,0
+View=-49.8102,-285.786,1135.88,575.27,1.62947,202,0
 Grid=10,10,0
 DataSet=*.dat
 DataDisplay=*.dpl
@@ -31,8 +31,8 @@ Pac P3 1 930 0 18 -31 0 "3"1"50 Ohm"1"0 dBm"0"1 GHz"0"26.85"0"SUBCLICK"0
 R R6 1 220 -10 16 -18 3 "1G"1"26.85"0"european"0"SMD0603"0
 GND * 1 220 20 0 0 0
 .SW SW1 1 880 170 0 8 0 "SP1"1"R"1"list"0"1000"0"10k"0"100;150;220;330;470;680;1000"0
-SPfile TR1 1 710 -40 -27 -100 6 "NCS1-521+_Plus25DegC_Unit1.s3p"1"3"1"polar"0"cubic"0"short"0"none"0"block"0"SOT23"0
-.SP SP1 1 740 170 0 8 0 "lin"1"0 GHz"1"1 GHz"1"1001"1"no"0"1"0"2"0"none"0
+.SP SP1 1 740 170 0 8 0 "lin"1"0 GHz"1"3 GHz"1"1001"1"no"0"1"0"2"0"none"0
+SPfile TR1 1 710 -40 -27 -100 6 "TCM1-63AX+_unit1.s3p"1"3"1"polar"0"cubic"0"short"0"none"0"block"0"SOT23"0
 </Components>
 <Wires>
 340 170 370 170
@@ -58,9 +58,9 @@ SPfile TR1 1 710 -40 -27 -100 6 "NCS1-521+_Plus25DegC_Unit1.s3p"1"3"1"polar"0"cu
 530 -30 530 -30 "TR_P3" 570 -40 0 ""
 880 -50 880 -50 "VGND" 910 -110 0 ""
 220 -40 220 -40 "VGND" 200 -70 0 ""
-710 70 710 70 "VGND" 640 50 0 ""
 680 -70 680 -70 "TR_P2" 610 -80 0 ""
 740 -10 740 -10 "TR_P3" 750 -30 0 ""
+710 70 710 70 "VGND" 640 50 0 ""
 </Wires>
 <Diagrams>
 </Diagrams>
